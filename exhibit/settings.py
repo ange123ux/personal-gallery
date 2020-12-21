@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'exhibit.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':  'gallery',
-        'USER': 'TevinMilla',
-        'PASSWORD': 'Kenya',
+        'NAME':  'exhibit',
+        'USER': 'ange',
+        'PASSWORD': 'ange1997',
     }
 }
 
