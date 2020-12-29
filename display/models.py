@@ -26,14 +26,14 @@ ORDER_CHOICES = (
     ('12', 'Trees'),
     ('13', 'Nature'),
     ('14', 'Abstract'),
-    ('15', 'IT & Computers'),
+    ('15', 'Painting'),
     ('16', 'Animals'),
     ('17', 'Illustrations'),
-    ('18', 'Arts'),
+    ('18', 'Flowers'),
     ('19', 'Business'),
     ('20', 'Industries'),
-    ('21', 'Objects'),
-    ('22', 'Technology'),
+    ('21', 'Cats'),
+    ('22', 'Car'),
     ('23', 'People'),
     ('24', 'Travel'),
 )
@@ -87,7 +87,7 @@ class Image(models.Model):
     @classmethod
     def filter_by_location(cls):
         display = cls.objects.filter(
-            location__name__icontains='Silicon Valley')
+            location__name__icontains='Sili')
         return display
 
     class Meta:
