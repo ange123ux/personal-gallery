@@ -41,7 +41,7 @@ ORDER_CHOICES = (
 
 class Category(models.Model):
     name = models.CharField(max_length=30)
-    category_choices = models.CharField(max_length=10, choices=ORDER_CHOICES)
+    category_choices = models.CharField(max_length=30, choices=ORDER_CHOICES)
 
     def __str__(self):
         return self.name
