@@ -29,6 +29,8 @@ SECRET_KEY = '&hugb1_09j_9ho5gg_i800id+zkxse=r&2i1qn6r_^+9m(k%@4'
 DEBUG = False
 ALLOWED_HOSTS = ['*']
 
+COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
+
 # Application definition
 
 INSTALLED_APPS = [
