@@ -26,8 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&hugb1_09j_9ho5gg_i800id+zkxse=r&2i1qn6r_^+9m(k%@4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-ALLOWED_HOSTS = ['*']
+
+DEBUG = True
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
 
