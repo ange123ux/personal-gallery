@@ -19,9 +19,6 @@ I consider myself as someone who is lucky because I grew up in a family where I 
 ## Technologies Used
 I used programing various languages to develop blogging application such as HTML language, js language, CSS for styling, bootstrap, django and many more.
 
-  ## PROJECTS THAT I DESIGNED
-[Blog Post](https://ange123ux.github.io/blog/)
-
 ## License Hellow
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
